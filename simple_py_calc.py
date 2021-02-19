@@ -1,3 +1,8 @@
+#I M P O R T S
+from datetime import datetime
+
+
+# G L O B A L   V A R S
 
 calc_to_run = "0"
 
@@ -16,7 +21,7 @@ def age_calculator():
     print("\n")
     print("*** Age Calculator ***")
 
-    current_year = 2021
+    current_year = datetime.now().year
     birth_year = int(input("Enter your birth year: "))
     age = current_year - birth_year
 
