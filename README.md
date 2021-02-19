@@ -1,15 +1,15 @@
 # Simple Python Calculator
 
-## Please deliver the simple python calc, it should:
+### Please deliver the simple python calc, it should:
 
-### calculate age:
+#### calculate age:
 
 - [x] ask the user for the birth year
 - [x] calculate (aprox) the age of the user
 
-#### note: year = int(input())
+##### note: year = int(input())
 
-### calculate tip:
+#### calculate tip:
 
 - [x] tip = 15%
 - [x] ask for the total
