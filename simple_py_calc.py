@@ -3,9 +3,10 @@ from datetime import datetime
 
 
 # G L O B A L   V A R S
-
 calc_to_run = "0"
 
+
+# I N I T
 def init():
     print("\n")
     print("[1] - Age Calculator")
@@ -16,7 +17,6 @@ def init():
 
 
 # A G E   C A L C U L A T I O N
-
 def age_calculator():
     print("\n")
     print("*** Age Calculator ***")
@@ -32,7 +32,6 @@ def age_calculator():
 
 
 # T I P   C A L C U L A T O R
-
 def tip_calculator():
     print("\n")
     print("*** Tip Calculator ***")
