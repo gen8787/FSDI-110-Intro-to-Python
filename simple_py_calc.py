@@ -5,10 +5,9 @@ def init():
     print("\n")
     print("[1] - Age Calculator")
     print("[2] - Tip Calculator")
-    print("[x] - Quit")
+    print("[q] - Quit")
     print("\n")
 
-    
 
 
 # A G E   C A L C U L A T I O N
@@ -52,11 +51,11 @@ while (True):
     init()
     calc_to_run = str(input("Select a calculator: "))
 
-    if (calc_to_run == "x"):
+    if (calc_to_run == "q"):
+        print("Closing...")
+        print("\n")
         break
     elif (calc_to_run == "1"):
         age_calculator()
     elif (calc_to_run == "2"):
         tip_calculator()
-
-print("Closing...")
